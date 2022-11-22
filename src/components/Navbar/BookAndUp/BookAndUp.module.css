@@ -1,0 +1,43 @@
+.book {
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  opacity: 1;
+  transition: opacity 0.5 ease-in;
+}
+.bookHidden {
+  opacity: 0;
+}
+.bookLink {
+  width: 136px;
+  height: 24px;
+  box-sizing: content-box;
+  display: block;
+  text-align: center;
+  padding: 12px 0 14px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-white);
+  line-height: 1.5;
+  background-image: linear-gradient(to left, rgb(255, 115, 86), rgb(251, 67, 87));
+  box-shadow: 1px 3px 6px 0 rgb(0 0 0 / 30%);
+  border-radius: 25px;
+  transition: right 0.4s;
+  margin-right: 10px;
+}
+.up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 1px 3px 6px 0 rgb(0 0 0 / 30%);
+  border-radius: 50%;
+}
+.icon {
+  font-size: 25px;
+}

@@ -1,0 +1,73 @@
+{
+  "store": [
+    {
+      "list": "영화관람권",
+      "listItems": [
+        {
+          "name": "CGV 영화관람권",
+          "price": "12,000원",
+          "url": "/",
+          "img": "/img/store/voucher.jpg"
+        },
+        {
+          "name": "CGV 골드클래스",
+          "price": "40,000원",
+          "url": "/",
+          "img": "/img/store/gold.jpg"
+        },
+        {
+          "name": "4DX 관람권",
+          "price": "19,000원",
+          "url": "/",
+          "img": "/img/store/4dx.jpg"
+        }
+      ]
+    },
+    {
+      "list": "기프트카드",
+      "listItems": [
+        {
+          "name": "PACONNIE A형",
+          "price": "금액충전형",
+          "url": "/",
+          "img": "/img/store/paconnie-a.jpg"
+        },
+        {
+          "name": "PACONNIE B형",
+          "price": "금액충전형",
+          "url": "/",
+          "img": "/img/store/paconnie-b.jpg"
+        },
+        {
+          "name": "PACONNIE C형",
+          "price": "금액충전형",
+          "url": "/",
+          "img": "/img/store/paconnie-c.jpg"
+        }
+      ]
+    },
+    {
+      "list": "음료",
+      "listItems": [
+        {
+          "name": "탄산음료(M)",
+          "price": "2,500원",
+          "url": "/",
+          "img": "/img/store/cola-m.jpg"
+        },
+        {
+          "name": "아메리카노(HOT)",
+          "price": "3,500원",
+          "url": "/",
+          "img": "/img/store/americano.jpg"
+        },
+        {
+          "name": "아메리카노(ICE)",
+          "price": "4,000원",
+          "url": "/",
+          "img": "/img/store/iceAmeriano.jpg"
+        }
+      ]
+    }
+  ]
+}

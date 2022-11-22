@@ -1,0 +1,19 @@
+{
+  "item": [
+    {
+      "bannerUrl": "/img/banner/dongamBanner.jpg",
+      "bannerDesc": "동감 시사회 이벤트 페이지 바로 가기.",
+      "backgroundColor": "#cbe8fa"
+    },
+    {
+      "bannerUrl": "/img/banner/yupozadulBanner.jpg",
+      "bannerDesc": "유포자들 상세 페이지 바로 가기.",
+      "backgroundColor": "#030305"
+    },
+    {
+      "bannerUrl": "/img/banner/theFallBanner.jpg",
+      "bannerDesc": "폴 600미터 상세 페이지 바로 가기.",
+      "backgroundColor": "#1e477d"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+.container {
+  padding: 60px 0 6px;
+  margin: 0 auto;
+  width: 980px;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.title {
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--color-text-dark);
+  line-height: 1.423;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stopButton {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color-grey10);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  margin-right: 10px;
+}
+.icon {
+  color: var(--color-text-grey);
+}
+.swiperWrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-top: 19px;
+  margin-left: -30px;
+  padding: 0 30px;
+  box-sizing: content-box;
+}
+.swiper {
+  overflow: visible;
+  height: 273px;
+  position: relative;
+}
+.swiper::before,
+.swiper::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+.swiper::before {
+  left: -30px;
+}
+.swiper::after {
+  right: -30px;
+}
+.slide {
+  height: 100%;
+  width: 310px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slideContent {
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  height: 207px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.name {
+  display: block;
+  overflow: hidden;
+  width: 310px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--color-text-dark);
+  line-height: 1.444;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.period {
+  display: block;
+  font-size: 14px;
+  color: var(--color-text-grey);
+  line-height: 1.429;
+}

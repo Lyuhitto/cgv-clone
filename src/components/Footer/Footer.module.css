@@ -1,0 +1,79 @@
+.footerWrapper {
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-grey);
+}
+.policy {
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  padding: 23px 0;
+  border-bottom: 1px solid var(--color-grey2);
+}
+.policy strong {
+  font-weight: 700;
+  color: var(--color-text-dark);
+  text-decoration: underline;
+}
+.comPanyInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0;
+  align-items: flex-end;
+}
+.companyInfo {
+  font-size: 12px;
+  color: var(--color-text-grey);
+  line-height: 1.667;
+}
+.companyInfo address {
+  font-style: normal;
+}
+.companyInfoList {
+  display: flex;
+}
+.companyInfoList dt::after {
+  content: ':';
+  padding: 0 4px;
+}
+.familySite {
+
+}
+.familySite select {
+  position: relative;
+  height: 34px;
+  font-size: 12px;
+  line-height: 34px;
+  background-color: transparent;
+  border: 1px solid var(--color-grey5);
+  
+}
+.familySite option {
+  font-weight: 400;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.familySite optgroup {
+  font-weight: 700;
+  display: block;
+}
+.submitBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 34px;
+  margin-left: 3px;
+  font-size: 14px;
+  color: var(--color-white);
+  line-height: 1.429em;
+  background-color: var(--color-grey6);
+  vertical-align: top;
+border: none;
+}
